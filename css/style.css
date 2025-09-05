@@ -1,0 +1,75 @@
+body {
+  font-family: tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9fafc;
+  direction: rtl;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4cafef;
+  padding: 10px 20px;
+}
+
+.navbar .logo {
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: #e3f2fd;
+}
+
+section {
+  padding: 20px;
+}
+
+.class-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  background: white;
+}
+
+button {
+  background: #4cafef;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2b8cd6;
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
